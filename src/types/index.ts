@@ -11,14 +11,14 @@ export interface Project {
   status?: 'completed' | 'ongoing' | 'planned';
 }
 
-export interface Experience {
+/*export interface Experience {
   id: string;
   company: string;
   position: string;
   duration: string;
   description: string;
   technologies: string[];
-}
+}*/
 
 export interface Skill {
   name: string;

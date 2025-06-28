@@ -1,4 +1,4 @@
-import { Project, Experience, Skill } from '../types';
+import { Project, Skill } from '../types';
 
 export const projects: Project[] = [
   {
@@ -23,17 +23,18 @@ export const projects: Project[] = [
     featured: true,
     status: 'completed'
   },
- /* {
+  {
     id: '3',
-    title: 'Virtual Herbal Garden',
-    description: 'Beautiful weather app with location-based forecasts',
+    title: 'Elite Fit',
+    description: 'EliteFit is a React-based fitness app that lets users search and filter exercises by BMI, muscle, or any disease',
     longDescription: 'Created an intuitive weather dashboard featuring current conditions, 7-day forecasts, interactive maps, location search, and personalized weather alerts with beautiful animations.',
-    technologies: ['React', 'Weather API', 'Chart.js', 'CSS Animations'],
-    imageUrl: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800',
-    demoUrl: 'https://demo.example.com',
-    githubUrl: 'https://github.com',
-    featured: false
-  }*/
+    technologies: ['React', 'Tailwind CSS'],
+    imageUrl: 'https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg',
+    demoUrl: 'https://elitefittness.netlify.app/',
+    githubUrl: 'https://github.com/pulkit102/EliteFit.git',
+    featured: true,
+    status: 'completed'
+  }
 ];
 
 
